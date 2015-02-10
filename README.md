@@ -1,5 +1,5 @@
 # groom
-Does JSON.parse(JSON.stringify(myObject)) and removes all nulls and empty strings.
+Does JSON.parse(JSON.stringify(myObject)) and removes all nulls, undefined and empty strings.
 
 ```js
 var groom = require('groom');
