@@ -1,0 +1,33 @@
+{
+  "name": "groom",
+  "version": "1.0.0",
+  "description": "JSON.parse(JSON.stringify(myObject)) and remove all nulls and empty strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-conomic/groom.git"
+  },
+  "keywords": [
+    "filter",
+    "trim",
+    "groom",
+    "string",
+    "json",
+    "null",
+    "empty"
+  ],
+  "author": "E-conomic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e-conomic/groom/issues"
+  },
+  "homepage": "https://github.com/e-conomic/groom",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "mocha-jshint": "0.0.9"
+  }
+}
