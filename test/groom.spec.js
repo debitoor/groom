@@ -12,7 +12,9 @@ describe('object with empty string and null', function(){
 				null,
 				undefined,
 				'test'
-			]
+			],
+			f: new Date(0),
+			g: /test/
 		};
 	});
 
@@ -21,8 +23,10 @@ describe('object with empty string and null', function(){
 		expect(groom(o)).to.eql({
 			a: 1,
 			e: [
-				"test"
-			]
+				'test'
+			],
+			f: '1970-01-01T00:00:00.000Z',
+			g: {}
 		});
 	});
 });

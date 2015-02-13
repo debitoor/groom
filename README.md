@@ -16,14 +16,20 @@ var o = {
     	null,
         undefined,
         'test'
-    ]
+    ],
+    f: new Date(0),
+    g: /test/
 };
 console.log(groom(o));
 //output:
 {
 	a: 1,
-	e: ["test"]
+	e: ["test"],
+    f: '1970-01-01T00:00:00.000Z',
+    g: {}
 }
 ```
 
-Note, the original object stays the same. A copy without null, undefined and empty string is created.
+Dates are .toString()'ed and regExp'es are turned into the empty object `{}`.
+
+The original object stays the same. A copy without null, undefined and empty string is created.
