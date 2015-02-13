@@ -17,10 +17,12 @@ var o = {
         'test'
     ]
 };
-console.log(o)
+console.log(groom(o));
 //output:
 {
 	a: 1,
 	e: ["test"]
 }
 ```
+
+Note, the original object stays the same, a copy without null, undefined and empty string is created.
