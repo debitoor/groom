@@ -1,4 +1,6 @@
 # groom
+[![Build Status](https://travis-ci.org/e-conomic/groom.svg?branch=master)](https://travis-ci.org/e-conomic/groom)
+
 Does JSON.parse(JSON.stringify(myObject)) and removes all nulls, undefined and empty strings.
 
 ```js
