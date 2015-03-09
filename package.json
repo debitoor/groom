@@ -1,6 +1,6 @@
 {
   "name": "groom",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "JSON.parse(JSON.stringify(myObject)) and remove all nulls, undefined and empty strings",
   "main": "index.js",
   "scripts": {
