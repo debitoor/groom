@@ -4,7 +4,7 @@
   "description": "JSON.parse(JSON.stringify(myObject)) and remove all nulls, undefined and empty strings",
   "main": "index.js",
   "scripts": {
-    "test": "_mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
